@@ -31,9 +31,19 @@ public class TestaRecursividade {
 		vector.add(new Integer(3));
 		vector.add(new Integer(4));
 		System.out.println(Recursividade.somaElementos(vector, 4));
+		//System.out.println(Recursividade.somarValores(vector));
 		
 		/*Testando metodo multipolicar recursivo*/
 		System.out.println(Recursividade.multiplicar(4, 3));
+		
+		/*Testando metodo inverter numero*/
+		System.out.println(Recursividade.inverterNumero(12345));
+		
+		/*Testando metodo converter binario*/
+		System.out.println(Recursividade.converterParaBinario(9));
+		
+		/*Testando metodo para somarDigitos de um algoritmo*/
+		System.out.println(Recursividade.somarDigitosNumero(1089));
 	}
 
 }
