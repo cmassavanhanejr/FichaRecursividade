@@ -121,4 +121,41 @@ public class Recursividade {
 			return inverter(resto,destino);
 	} 
 
+	/*VerificarAparicoesdeAlgarismo*/
+	/**
+	 * 
+	 * @param numero
+	 * @param algarismo
+	 * @param quant
+	 * @return
+	 */
+	public static int verificarAparicoes(int numero,int algarismo, int quant) {
+		if(numero==0)
+			return quant;
+		else if(numero%10==algarismo) {
+			quant++;
+		}
+			return verificarAparicoes(numero/10, algarismo, quant);
+	}
+	
+	
+	/*Exercicio 8*/
+	/**
+	 * 
+	 * @param n
+	 * @return
+	 */
+	public static String[] combinacoesAbecadario(int n) {
+		return null;
+	}
+	
+	/**
+	 * 
+	 * @param primeirasLetras
+	 * @param n
+	 * @return
+	 */
+	public static String[] combiacoesAbecedario(String primeirasLetras[], int n) {
+		return null;
+	}
 }
